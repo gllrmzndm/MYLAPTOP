@@ -62,7 +62,7 @@ sudo apt-get install -y transmission
 sudo apt-get install -y deja-dup
 
 sudo apt-get install -y vim
-yes 3 | sudo update-alternatives --config editor
+yes 4 | sudo update-alternatives --config editor
 
 sudo apt install ubuntu-restricted-extras
 sudo apt-get install -y qemu qemu-kvm bridge-utils virt-manager libguestfs-tools gnome-boxes
