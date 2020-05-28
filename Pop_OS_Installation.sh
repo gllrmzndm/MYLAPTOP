@@ -39,7 +39,7 @@ sudo apt-get install -y krita
 sudo apt-get install -y darktable
 
 sudo apt-get install -y virt-manager
-sudo adduser username libvirt-qemu
+sudo adduser $USER libvirt-qemu
 
 sudo apt-get install -y graphviz
 sudo apt-get install -y obs-studio
