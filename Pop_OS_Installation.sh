@@ -37,7 +37,10 @@ sudo apt-get install -y gimp
 sudo apt-get install -y scribus
 sudo apt-get install -y krita
 sudo apt-get install -y darktable
+
 sudo apt-get install -y virt-manager
+sudo adduser username libvirt-qemu
+
 sudo apt-get install -y graphviz
 sudo apt-get install -y obs-studio
 sudo apt-get install -y docker
