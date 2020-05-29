@@ -39,6 +39,7 @@ sudo apt-get install -y krita
 sudo apt-get install -y darktable
 
 sudo apt-get install -y virt-manager
+sudo adduser $USER libvirt
 sudo adduser $USER libvirt-qemu
 
 sudo apt-get install -y graphviz
