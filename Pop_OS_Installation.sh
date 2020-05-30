@@ -37,14 +37,6 @@ sudo apt-get install -y gimp
 sudo apt-get install -y scribus
 sudo apt-get install -y krita
 sudo apt-get install -y darktable
-
-sudo apt-get install -y virt-manager
-sudo adduser $USER libvirt
-sudo adduser $USER libvirt-qemu
-
-vagrant plugin install vagrant-mutate
-vagrant plugin install vagrant-rekey-ssh
-
 sudo apt-get install -y graphviz
 sudo apt-get install -y obs-studio
 sudo apt-get install -y docker
@@ -55,9 +47,6 @@ sudo apt-get install -y clamav clamtk
 sudo apt-get install -y google-chrome-stable
 sudo apt-get install -y chrome-gnome-shell
 sudo apt-get install -y docker.io
-sudo apt-get install -y flameshot
-flameshot config -f %T_%F
-
 sudo apt-get install -y peek
 sudo apt-get install -y gnome-shell-extension-weather gnome-shell-extension-gsconnect-browsers
 sudo apt-get install -y lollypop
@@ -71,5 +60,14 @@ sudo apt-get install -y deja-dup
 sudo apt-get install -y vim
 yes 4 | sudo update-alternatives --config editor
 
+sudo apt-get install -y flameshot
+flameshot config -f %T_%F
+
 sudo apt install ubuntu-restricted-extras
-sudo apt-get install -y qemu qemu-kvm bridge-utils virt-manager libguestfs-tools gnome-boxes
+
+sudo apt-get install -y virt-manager libguestfs-tools gnome-boxes
+sudo apt-get install -y qemu qemu-kvm bridge-utils 
+sudo adduser $USER libvirt
+sudo adduser $USER libvirt-qemu
+
+sudo apt-get install -y virtualbox virtualbox-ext-pack
