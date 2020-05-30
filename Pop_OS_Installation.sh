@@ -42,6 +42,9 @@ sudo apt-get install -y virt-manager
 sudo adduser $USER libvirt
 sudo adduser $USER libvirt-qemu
 
+vagrant plugin install vagrant-mutate
+vagrant plugin install vagrant-rekey-ssh
+
 sudo apt-get install -y graphviz
 sudo apt-get install -y obs-studio
 sudo apt-get install -y docker
