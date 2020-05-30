@@ -69,5 +69,3 @@ sudo apt-get install -y virt-manager libguestfs-tools gnome-boxes
 sudo apt-get install -y qemu qemu-kvm bridge-utils 
 sudo adduser $USER libvirt
 sudo adduser $USER libvirt-qemu
-
-sudo apt-get install -y virtualbox virtualbox-ext-pack
