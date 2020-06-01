@@ -56,6 +56,7 @@ sudo apt-get install -y clamav clamtk clamdscan
 sudo apt-get install -y remmina
 sudo apt-get install -y transmission
 sudo apt-get install -y deja-dup
+sudo apt-get install -y ansible
 
 sudo apt-get install -y vim
 yes 4 | sudo update-alternatives --config editor
