@@ -41,7 +41,6 @@ sudo apt-get install -y graphviz
 sudo apt-get install -y obs-studio
 sudo apt-get install -y docker
 sudo apt-get install -y zram
-sudo apt-get install -y vagrant
 sudo apt-get install -y clamav clamtk
 sudo apt-get install -y google-chrome-stable
 sudo apt-get install -y chrome-gnome-shell
@@ -57,6 +56,10 @@ sudo apt-get install -y transmission
 sudo apt-get install -y deja-dup
 sudo apt-get install -y ansible
 sudo apt-get install -y tlp tlp-rdw
+
+sudo apt-get install -y vagrant
+vagrant plugin install winrm
+vagrant plugin install winrm-elevated
 
 sudo apt-get install -y vim
 yes 4 | sudo update-alternatives --config editor
