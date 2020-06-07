@@ -56,6 +56,7 @@ sudo apt-get install -y transmission
 sudo apt-get install -y deja-dup
 sudo apt-get install -y ansible
 sudo apt-get install -y tlp tlp-rdw
+sudo apt-get install -y dislocker
 
 sudo apt-get install -y vagrant
 vagrant plugin install winrm
