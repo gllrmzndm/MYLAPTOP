@@ -68,9 +68,9 @@ yes 4 | sudo update-alternatives --config editor
 sudo apt-get install -y flameshot
 flameshot config -f %T_%F
 
-sudo apt install ubuntu-restricted-extras
+sudo apt-get install -y ubuntu-restricted-extras
 
 sudo apt-get install -y virt-manager libguestfs-tools gnome-boxes
 sudo apt-get install -y qemu qemu-kvm bridge-utils 
-sudo adduser $USER libvirt
-sudo adduser $USER libvirt-qemu
+#sudo adduser $USER libvirt
+#sudo adduser $USER libvirt-qemu
