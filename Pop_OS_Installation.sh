@@ -74,3 +74,6 @@ sudo apt-get install -y virt-manager libguestfs-tools gnome-boxes
 sudo apt-get install -y qemu qemu-kvm bridge-utils 
 sudo adduser $USER libvirt
 sudo adduser $USER libvirt-qemu
+
+# https://www.pling.com/p/1175480/
+# https://www.gnome-look.org/p/1148692/
