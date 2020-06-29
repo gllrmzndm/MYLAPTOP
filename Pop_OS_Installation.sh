@@ -61,6 +61,7 @@ sudo apt-get install -y dislocker
 sudo apt-get install -y vagrant
 vagrant plugin install winrm
 vagrant plugin install winrm-elevated
+vagrant plugin install vagrant-hostsupdater
 
 sudo apt-get install -y vim
 yes 4 | sudo update-alternatives --config editor
