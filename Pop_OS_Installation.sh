@@ -59,6 +59,7 @@ sudo apt-get install -y tlp tlp-rdw
 sudo apt-get install -y dislocker
 
 sudo apt-get install -y vagrant
+vagrant plugin install vagrant-libvirt
 vagrant plugin install winrm
 vagrant plugin install winrm-elevated
 vagrant plugin install vagrant-hostsupdater
