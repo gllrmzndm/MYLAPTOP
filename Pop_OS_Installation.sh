@@ -58,12 +58,6 @@ sudo apt-get install -y ansible
 sudo apt-get install -y tlp tlp-rdw
 sudo apt-get install -y dislocker
 
-sudo apt-get install -y vagrant
-vagrant plugin install vagrant-libvirt
-vagrant plugin install winrm
-vagrant plugin install winrm-elevated
-vagrant plugin install vagrant-hostsupdater
-
 sudo apt-get install -y vim
 yes 4 | sudo update-alternatives --config editor
 
@@ -72,10 +66,18 @@ flameshot config -f %T_%F
 
 sudo apt-get install -y ubuntu-restricted-extras
 
-sudo apt-get install -y virt-manager libguestfs-tools gnome-boxes
-sudo apt-get install -y qemu qemu-kvm bridge-utils 
-sudo adduser $USER libvirt
-sudo adduser $USER libvirt-qemu
+sudo apt-get install -y virtualbox virtualbox virtualbox-ext-pack
+
+# sudo apt-get install -y vagrant
+# vagrant plugin install vagrant-libvirt
+# vagrant plugin install winrm
+# vagrant plugin install winrm-elevated
+# vagrant plugin install vagrant-hostsupdater
+
+# sudo apt-get install -y virt-manager libguestfs-tools gnome-boxes
+# sudo apt-get install -y qemu qemu-kvm bridge-utils 
+# sudo adduser $USER libvirt
+# sudo adduser $USER libvirt-qemu
 
 # https://www.pling.com/p/1175480/
 # https://www.gnome-look.org/p/1148692/
