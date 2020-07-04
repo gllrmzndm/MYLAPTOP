@@ -67,7 +67,7 @@ flameshot config -f %T_%F
 sudo apt-get install -y ubuntu-restricted-extras
 
 sudo apt-get install -y virt-manager libguestfs-tools gnome-boxes
-sudo apt-get install -y qemu qemu-kvm bridge-utils 
+sudo apt-get install -y qemu qemu-kvm bridge-utils
 sudo adduser $USER libvirt
 sudo adduser $USER libvirt-qemu
 
