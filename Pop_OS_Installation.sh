@@ -71,11 +71,11 @@ sudo apt-get install -y qemu qemu-kvm bridge-utils
 sudo adduser $USER libvirt
 sudo adduser $USER libvirt-qemu
 
-sudo apt-get install -y vagrant
-vagrant plugin install vagrant-libvirt
-vagrant plugin install winrm
-vagrant plugin install winrm-elevated
-vagrant plugin install vagrant-hostsup
+#sudo apt-get install -y vagrant
+#vagrant plugin install vagrant-libvirt
+#vagrant plugin install winrm
+#vagrant plugin install winrm-elevated
+#vagrant plugin install vagrant-hostsup
 
 # https://www.pling.com/p/1175480/
 # https://www.gnome-look.org/p/1148692/
