@@ -71,6 +71,10 @@ sudo apt-get install -y qemu qemu-kvm bridge-utils
 sudo adduser $USER libvirt
 sudo adduser $USER libvirt-qemu
 
+sudo apt-get install -y build-dep vagrant ruby-libvirt
+sudo apt-get install -y qemu libvirt-daemon-system libvirt-clients ebtables dnsmasq-base
+sudo apt-get install -y libxslt-dev libxml2-dev libvirt-dev zlib1g-dev ruby-de
+
 #sudo apt-get install -y vagrant
 #vagrant plugin install vagrant-libvirt
 #vagrant plugin install winrm
