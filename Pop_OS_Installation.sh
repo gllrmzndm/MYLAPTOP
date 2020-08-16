@@ -85,3 +85,5 @@ sudo apt-get install -y virtualbox virtualbox-ext-pack
 
 # https://www.pling.com/p/1175480/
 # https://www.gnome-look.org/p/1148692/
+# Gnome superkey + number
+# org.gnome.shell.keybindings
