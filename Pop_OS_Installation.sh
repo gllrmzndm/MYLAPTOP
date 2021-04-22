@@ -72,7 +72,12 @@ sudo apt-get install -y qemu qemu-kvm bridge-utils
 sudo adduser $USER libvirt
 sudo adduser $USER libvirt-qemu
 
-sudo apt-get install -y virtualbox virtualbox-ext-pack
+# Automatic updates https://www.cyberciti.biz/faq/how-to-set-up-automatic-updates-for-ubuntu-linux-18-04/
+
+sudo apt-get install unattended-upgrades apt-listchanges bsd-mailx
+sudo dpkg-reconfigure -plow unattended-upgrades
+
+#sudo apt-get install -y virtualbox virtualbox-ext-pack
 
 # sudo apt-get install -y build-dep vagrant ruby-libvirt
 # sudo apt-get install -y qemu libvirt-daemon-system libvirt-clients ebtables dnsmasq-base
@@ -87,3 +92,24 @@ sudo apt-get install -y virtualbox virtualbox-ext-pack
 # https://www.pling.com/p/1175480/
 # https://www.gnome-look.org/p/1148692/
 # Gnome superkey + number in deconf editor "keybindings" org.gnome.shell.keybindings
+
+# Vagrant
+# sudo apt-get install -y build-dep vagrant ruby-libvirt
+# sudo apt-get install -y qemu libvirt-daemon-system libvirt-clients ebtables dnsmasq-base
+# sudo apt-get install -y libxslt-dev libxml2-dev libvirt-dev zlib1g-dev ruby-dev
+
+#sudo apt-get install -y vagrant
+#vagrant plugin install vagrant-libvirt
+#vagrant plugin install winrm
+#vagrant plugin install winrm-elevated
+#vagrant plugin install vagrant-hostsup
+#sudo apt-get install -y gnome-shell-extension-weather gnome-shell-extension-gsconnect-browsers
+
+
+# https://www.pling.com/p/1175480/
+# https://www.gnome-look.org/p/1148692/
+# https://extensions.gnome.org/extension/1319/gsconnect/
+# https://extensions.gnome.org/extension/750/openweather/
+# https://extensions.gnome.org/extension/442/drop-down-terminal/
+
+# https://askubuntu.com/questions/968103/disable-the-default-app-key-supernum-functionality-on-ubuntu-17-10-and-later
