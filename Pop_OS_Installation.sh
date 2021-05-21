@@ -40,11 +40,11 @@ sudo apt-get install -y darktable
 sudo apt-get install -y graphviz
 sudo apt-get install -y obs-studio
 sudo apt-get install -y docker
+sudo apt-get install -y docker-compose
 sudo apt-get install -y zram
 sudo apt-get install -y clamav clamtk
 sudo apt-get install -y google-chrome-stable
 sudo apt-get install -y chrome-gnome-shell
-sudo apt-get install -y docker.io
 sudo apt-get install -y peek
 sudo apt-get install -y gnome-shell-extension-weather gnome-shell-extension-gsconnect-browsers
 sudo apt-get install -y lollypop
@@ -63,7 +63,7 @@ sudo apt-get install -y gnome-books
 yes 4 | sudo update-alternatives --config editor
 
 sudo apt-get install -y flameshot
-flameshot config -f %T_%F
+flameshot config -f %T_ %e-%m-%Y
 
 sudo apt-get install -y ubuntu-restricted-extras
 
@@ -74,7 +74,7 @@ sudo adduser $USER libvirt-qemu
 
 # Automatic updates https://www.cyberciti.biz/faq/how-to-set-up-automatic-updates-for-ubuntu-linux-18-04/
 
-sudo apt-get install unattended-upgrades apt-listchanges bsd-mailx
+sudo apt-get install unattended-upgrades apt-listchanges
 sudo dpkg-reconfigure -plow unattended-upgrades
 
 #sudo apt-get install -y virtualbox virtualbox-ext-pack
