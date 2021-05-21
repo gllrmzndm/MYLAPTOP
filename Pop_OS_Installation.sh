@@ -59,6 +59,7 @@ sudo apt-get install -y tlp tlp-rdw
 sudo apt-get install -y dislocker
 sudo apt-get install -y vim
 sudo apt-get install -y gnome-books
+sudo apt-get install -y guake
 
 yes 4 | sudo update-alternatives --config editor
 
