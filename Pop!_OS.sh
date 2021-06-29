@@ -114,3 +114,4 @@ sudo dpkg-reconfigure -plow unattended-upgrades
 # https://extensions.gnome.org/extension/442/drop-down-terminal/
 
 # https://askubuntu.com/questions/968103/disable-the-default-app-key-supernum-functionality-on-ubuntu-17-10-and-later
+# https://askubuntu.com/questions/617589/ubuntu-15-04-jumps-into-standby-after-login
