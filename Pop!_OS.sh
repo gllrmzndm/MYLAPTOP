@@ -63,8 +63,8 @@ sudo apt-get install -y guake
 
 yes 4 | sudo update-alternatives --config editor
 
-sudo apt-get install -y knsip
-## flameshot config -f %T_ %e-%m-%Y
+sudo apt-get install -y flameshot
+flameshot config -f %T_ %e-%m-%Y
 
 sudo apt-get install -y ubuntu-restricted-extras
 
