@@ -60,6 +60,7 @@ sudo apt-get install -y dislocker
 sudo apt-get install -y vim
 sudo apt-get install -y gnome-books
 sudo apt-get install -y guake
+sudo apt-get install -y gpick
 
 yes 4 | sudo update-alternatives --config editor
 
