@@ -57,7 +57,7 @@ sudo apt-get install -y deja-dup
 sudo apt-get install -y ansible
 sudo apt-get install -y tlp tlp-rdw
 sudo apt-get install -y dislocker
-sudo apt-get install -y vim
+sudo apt-get install -y neovim
 sudo apt-get install -y gnome-books
 sudo apt-get install -y guake
 sudo apt-get install -y gpick
