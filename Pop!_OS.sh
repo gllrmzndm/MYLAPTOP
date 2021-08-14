@@ -61,6 +61,7 @@ sudo apt-get install -y vim
 sudo apt-get install -y gnome-books
 sudo apt-get install -y guake
 sudo apt-get install -y gpick
+sudo apt-get install -y mosh
 
 yes 4 | sudo update-alternatives --config editor
 
