@@ -48,7 +48,6 @@ sudo dnf install -y deja-dup
 sudo dnf install -y chrome-gnome-shell
 sudo dnf install -y vim
 sudo dnf install -y thunderbird
-sudo dnf install -y docker
 sudo dnf install -y tlp
 sudo dnf install -y ansible
 sudo dnf install -y remmina
