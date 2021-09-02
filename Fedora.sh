@@ -28,7 +28,6 @@ sudo dnf groupinstall -y "Vagrant with libvirt support" --skip-broken
 sudo dnf groupinstall -y "System tools" --skip-broken
 sudo dnf groupinstall -y "Text-based Internet" --skip-broken
 sudo dnf groupinstall -y "Administration Tools" --skip-broken
-sudo dnf groupinstall -y "Multimedia" --skip-broken
 
 sudo usermod -a -G libvirt $(whoami)
 
@@ -54,8 +53,6 @@ sudo dnf install -y tlp
 sudo dnf install -y ansible
 sudo dnf install -y remmina
 sudo dnf install -y foliate
-sudo dnf install -y openshot
-sudo dnf install -y obs-studio
 sudo dnf install -y peek
 sudo dnf install -y seahorse
 sudo dnf install -y transmission
@@ -67,13 +64,12 @@ sudo dnf install -y gnome-shell-extension-gsconnect
 sudo dnf install -y webextension-gsconnect.x86_64
 sudo dnf install -y discord
 sudo dnf install -y intel-media-driver
-sudo dnf install -y xorg-x11-drv-nvidia-cuda
-sudo dnf install -y kmod-nvidia
 sudo dnf install -y setools-console
 sudo dnf install -y wireshark
 sudo dnf install -y unrar
 sudo dnf install -y rar
 sudo dnf install -y gpick
+sudo dnf install -y guake
 
 sleep 5
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
