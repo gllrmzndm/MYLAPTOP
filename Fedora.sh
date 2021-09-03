@@ -46,7 +46,7 @@ sudo dnf install -y gnome-firmware
 sudo dnf install -y toolbox
 sudo dnf install -y deja-dup
 sudo dnf install -y chrome-gnome-shell
-sudo dnf install -y neovim
+sudo dnf install -y neo`vim
 sudo dnf install -y thunderbird
 sudo dnf install -y tlp
 sudo dnf install -y ansible
@@ -86,7 +86,7 @@ sleep 5
 
 flameshot config -f %T_%F
 
-echo "export EDITOR='/usr/bin/vim'" >> ~/.bashrc
+echo "export EDITOR='/usr/bin/neovim'" >> ~/.bashrc
 
 sudo dnf install -y clamav clamav-update clamtk
 sudo freshclam
