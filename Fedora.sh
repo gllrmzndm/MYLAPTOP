@@ -46,7 +46,7 @@ sudo dnf install -y gnome-firmware
 sudo dnf install -y toolbox
 sudo dnf install -y deja-dup
 sudo dnf install -y chrome-gnome-shell
-sudo dnf install -y vim
+sudo dnf install -y neovim
 sudo dnf install -y thunderbird
 sudo dnf install -y tlp
 sudo dnf install -y ansible
@@ -60,6 +60,7 @@ sudo dnf install -y fuse-exfat
 sudo dnf install -y gnome-extensions-app.x86_64
 sudo dnf install -y gnome-shell-extension-openweather
 sudo dnf install -y gnome-shell-extension-gsconnect
+sudo dnf install -y gnome-shell-extension-dash-to-dock
 sudo dnf install -y webextension-gsconnect.x86_64
 sudo dnf install -y discord
 sudo dnf install -y intel-media-driver
