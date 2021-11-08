@@ -62,6 +62,7 @@ sudo apt-get install -y gnome-books
 sudo apt-get install -y guake
 sudo apt-get install -y gpick
 sudo apt-get install -y mosh
+sudo apt-get install -y autokey-gtk
 
 yes 4 | sudo update-alternatives --config editor
 
