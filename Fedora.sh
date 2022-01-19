@@ -68,6 +68,7 @@ sudo dnf install -y wireshark
 sudo dnf install -y unrar
 sudo dnf install -y rar
 sudo dnf install -y guake
+sudo dnf install -y gedit
 # sudo dnf install -y gpick
 
 sleep 5
