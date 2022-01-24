@@ -69,7 +69,7 @@ sudo dnf install -y unrar
 sudo dnf install -y rar
 sudo dnf install -y guake
 sudo dnf install -y gedit
-# sudo dnf install -y gpick
+sudo dnf install -y gpick
 
 sleep 5
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
