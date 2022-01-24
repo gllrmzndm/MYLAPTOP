@@ -49,7 +49,6 @@ sudo dnf install -y chrome-gnome-shell
 sudo dnf install -y neovim
 sudo dnf install -y thunderbird
 sudo dnf install -y tlp
-sudo dnf install -y ansible
 sudo dnf install -y remmina
 sudo dnf install -y foliate
 sudo dnf install -y peek
@@ -70,6 +69,9 @@ sudo dnf install -y rar
 sudo dnf install -y guake
 sudo dnf install -y gedit
 sudo dnf install -y gpick
+
+sudo dnf install -y ansible
+sudo dnf install -y ansible-lint
 
 sleep 5
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
