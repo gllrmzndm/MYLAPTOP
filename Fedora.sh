@@ -48,7 +48,6 @@ sudo dnf install -y deja-dup
 sudo dnf install -y chrome-gnome-shell
 sudo dnf install -y neovim
 sudo dnf install -y thunderbird
-sudo dnf install -y tlp
 sudo dnf install -y remmina
 sudo dnf install -y foliate
 sudo dnf install -y peek
