@@ -63,7 +63,7 @@ sudo apt-get install -y guake
 sudo apt-get install -y gpick
 sudo apt-get install -y mosh
 sudo apt-get install -y autokey-gtk
-
+sudo apt-get install -y aria2
 yes 4 | sudo update-alternatives --config editor
 
 sudo apt-get install -y flameshot
