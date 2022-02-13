@@ -66,6 +66,8 @@ sudo apt-get install -y autokey-gtk
 sudo apt-get install -y aria2
 yes 4 | sudo update-alternatives --config editor
 
+flatpak install flathub de.haeckerfelix.Fragments -y
+
 sudo apt-get install -y flameshot
 flameshot config -f %T_ %e-%m-%Y
 
