@@ -38,7 +38,7 @@ sudo apt-get install -y scribus
 sudo apt-get install -y krita
 sudo apt-get install -y darktable
 sudo apt-get install -y graphviz
-sudo apt-get install -y obs-studio
+# sudo apt-get install -y obs-studio
 sudo apt-get install -y docker
 sudo apt-get install -y docker-compose
 sudo apt-get install -y zram
@@ -64,6 +64,8 @@ sudo apt-get install -y gpick
 sudo apt-get install -y mosh
 sudo apt-get install -y autokey-gtk
 sudo apt-get install -y aria2
+sudo apt-get install -y simplescreenrecorder
+
 yes 4 | sudo update-alternatives --config editor
 
 flatpak install flathub de.haeckerfelix.Fragments -y
