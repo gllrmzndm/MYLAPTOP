@@ -65,6 +65,7 @@ sudo apt-get install -y mosh
 sudo apt-get install -y autokey-gtk
 sudo apt-get install -y aria2
 sudo apt-get install -y simplescreenrecorder
+sudo apt-get install -y openshot
 
 yes 4 | sudo update-alternatives --config editor
 
