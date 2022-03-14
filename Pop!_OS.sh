@@ -66,6 +66,7 @@ sudo apt-get install -y autokey-gtk
 sudo apt-get install -y aria2
 sudo apt-get install -y simplescreenrecorder
 sudo apt-get install -y openshot
+sudo apt-get install -y install gnome-documents
 
 yes 4 | sudo update-alternatives --config editor
 
