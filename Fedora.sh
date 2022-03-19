@@ -68,6 +68,7 @@ sudo dnf install -y rar
 sudo dnf install -y guake
 sudo dnf install -y gedit
 sudo dnf install -y gpick
+sudo dnf install -y lollypop
 
 sudo dnf install -y ansible
 sudo dnf install -y ansible-lint
