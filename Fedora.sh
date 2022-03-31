@@ -46,7 +46,7 @@ sudo dnf install -y gnome-firmware
 sudo dnf install -y toolbox
 sudo dnf install -y deja-dup
 sudo dnf install -y chrome-gnome-shell
-sudo dnf install -y neovim
+sudo dnf install -y im
 sudo dnf install -y thunderbird
 sudo dnf install -y remmina
 sudo dnf install -y foliate
@@ -71,8 +71,14 @@ sudo dnf install -y gpick
 sudo dnf install -y lollypop
 sudo dnf install -y aria2
 
+# Ansible
 sudo dnf install -y ansible
 sudo dnf install -y ansible-lint
+
+#GitHub CLI
+
+sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+sudo dnf install -y gh
 
 sleep 5
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -89,7 +95,7 @@ sleep 5
 
 flameshot config -f %T_%F
 
-echo "export EDITOR='/usr/bin/neovim'" >> ~/.bashrc
+echo "export EDITOR='/usr/bin/vim'" >> ~/.bashrc
 
 # sudo dnf install -y clamav clamav-update clamtk
 # sudo freshclam
