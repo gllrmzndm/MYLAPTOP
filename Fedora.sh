@@ -70,6 +70,7 @@ sudo dnf install -y gedit
 sudo dnf install -y gpick
 sudo dnf install -y lollypop
 sudo dnf install -y aria2
+sudo dnf install -y flat-remix-icon-theme
 
 # Ansible
 sudo dnf install -y ansible
