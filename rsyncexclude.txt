@@ -1,0 +1,9 @@
+AppData/Local/Packages
+AppData/Local/
+"C:\Users\guill\VirtualBox VMs"
+.vscode/extensions/*
+AppData/Roaming/Code/
+AppData/Roaming/EaseUS/*
+AppData/Roaming/*
+AppData/LocalLow/*
+VirtualBox VMs/
