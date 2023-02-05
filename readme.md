@@ -20,4 +20,11 @@ rsync -ahvp --exclude-from="/cygdrive/c/Users/guill/rsyncexclude.txt" "/cygdrive
 
 Exclude text for excluding directories.
 
+
+# Chocolatey export script from Hougaard.com 
+
+choco list -lo -r -y | % { "choco install $($_.SubString(0, $_.IndexOf("|"))) -y" } | Out-File Install.ps1
+
+Source: https://www.hougaard.com/move-my-chocolatey-apps-to-another-pc/
+
 Guillermo Zaandam
