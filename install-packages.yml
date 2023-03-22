@@ -1,0 +1,42 @@
+---
+- hosts: localhost
+  gather_facts: no
+  become: yes
+
+  tasks:
+    - name: Install chocolatey
+      win_chocolatey:
+        name: chocolatey
+        state: present
+
+    - name: Install packages
+      win_chocolatey:
+        name:
+          - autohotkey
+          - autohotkey.install
+          - chocolatey-compatibility.extension
+          - chocolatey-core.extension
+          - chocolatey-windowsupdate.extension
+          - dotnet-6.0-desktopruntime
+          - dotnet-desktopruntime
+          - DotNet4.5.2
+          - Everything
+          - figma
+          - Firefox
+          - flow-launcher
+          - gh
+          - git
+          - GoogleChrome
+          - nmap
+          - nodejs
+          - nodejs.install
+          - notepadplusplus
+          - notepadplusplus.install
+          - powerautomatedesktop
+          - powertoys
+          - python3
+          - rpi-imager
+          - rsync
+          - rufus
+          - ueli
+          - vagrant
