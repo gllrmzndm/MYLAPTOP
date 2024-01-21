@@ -68,7 +68,7 @@ sudo apt-get install -y simplescreenrecorder
 sudo apt-get install -y openshot
 sudo apt-get install -y install gnome-documents
 
-yes 4 | sudo update-alternatives --config editor
+yes 2 | sudo update-alternatives --config editor
 
 flatpak install flathub de.haeckerfelix.Fragments -y
 
@@ -84,8 +84,8 @@ sudo adduser $USER libvirt-qemu
 
 # Automatic updates https://www.cyberciti.biz/faq/how-to-set-up-automatic-updates-for-ubuntu-linux-18-04/
 
-sudo apt-get install unattended-upgrades apt-listchanges
-sudo dpkg-reconfigure -plow unattended-upgrades
+# sudo apt-get install unattended-upgrades apt-listchanges
+# sudo dpkg-reconfigure -plow unattended-upgrades
 
 #sudo apt-get install -y virtualbox virtualbox-ext-pack
 
